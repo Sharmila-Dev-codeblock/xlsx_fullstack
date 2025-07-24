@@ -1,0 +1,25 @@
+.user-table {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.user-table table {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+}
+
+.user-table th {
+  background-color: #f4f4f4;
+  text-transform: uppercase;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
